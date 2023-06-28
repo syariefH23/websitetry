@@ -1,0 +1,75 @@
+/* membuat global style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* membuat style untuk header */
+header {
+    background-color: #00a2c6;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* membuat main style */
+main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+article {
+    flex-basis: 70%;
+    padding: 20ppx;
+}
+
+aside {
+    flex-basis: 25%;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+/* membuat style footer */
+footer {
+    background-color: #ddd;
+    padding: 10px 20px;
+}
+
+/* membuat kelas active pada css */
+:active {
+    color: #ccc;
+}
